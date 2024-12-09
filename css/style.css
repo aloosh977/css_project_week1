@@ -102,13 +102,10 @@ th,tr
 {
     background-color: rgba(245, 245, 220, 0.429);
     border: 5px solid beige;
+    border-radius: 5px;
 }
 th:hover {background-color: rgba(126, 234, 146, 0.443)}
 
-img
-{
-    width: 100;
-}
 
 
 
