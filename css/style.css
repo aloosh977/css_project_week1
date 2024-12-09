@@ -1,0 +1,134 @@
+
+li
+{
+    border-radius: 50px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color:beige  ;
+    line-height: normal;
+    font-size: xx-large;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+body
+{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+    display: grid;
+    grid-template-areas: 
+    'head'
+    'main'
+    'main'
+    'main'
+    'main'
+    'main'
+    'main'
+    'main'
+    'main'
+    'main';
+}
+.nav_header
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: head; 
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0%;
+}
+main{grid-area: main;}
+
+ul
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: black;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+h1
+{
+    font-size: xxx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 38%;
+    margin-top: 1%;
+    background-color: beige;
+    border-radius: 50px;
+    border-color: rgb(12, 11, 11);
+    border-style: solid;
+}
+p
+{
+    font-size: large;
+    background-color: beige;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 225%;
+}
+.id-footer
+{
+    width: 100%;
+    /* how to make it at the very bottom of the page */
+    position: fixed;
+    bottom: 0;
+}
+.copy_right
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 125%;
+    width: 100%;
+    /* position: sticky; i dont know what does it do */
+}
+table
+{
+    margin-left: 5%;
+    width: 90%;
+}
+th,tr
+{
+    background-color: rgba(245, 245, 220, 0.429);
+    border: 5px solid beige;
+}
+th:hover {background-color: rgba(126, 234, 146, 0.443)}
+
+
+
+
+
+/* 
+.item1{grid-area: header;}
+.item2{grid-area: menu;}
+.item3{grid-area: main;}
+.item4{grid-area: right;}
+.item5{grid-area: footer;}
+.grid_container
+{
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    background-color: rgb(126, 35, 163);
+    padding: 10px;
+    gap: 10px;
+}
+.grid_container > div {
+    background-color: rgba(214, 48, 48, 0.8);
+    text-align: center;
+    padding: 10px ;
+    font-size: 30px;
+  } */
