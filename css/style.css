@@ -105,6 +105,10 @@ th,tr
 }
 th:hover {background-color: rgba(126, 234, 146, 0.443)}
 
+img
+{
+    width: 100;
+}
 
 
 
