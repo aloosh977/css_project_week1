@@ -16,7 +16,7 @@ li
 body
 {
     font-family: 'Times New Roman', Times, serif;
-
+    font-size: medium;
     
     margin-top: 0%;
     margin-left: 0%;
@@ -44,7 +44,12 @@ body
     top: 0;
     margin-bottom: 0%;
 }
-main{grid-area: main;}
+main
+{
+    grid-area: main;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: medium;
+}
 
 ul
 {
@@ -109,6 +114,18 @@ th,tr
 }
 th:hover {background-color: rgba(126, 234, 146, 0.443)}
 
+header
+{
+    background-color: rgb(26, 53, 78);
+}
+nav
+{
+    background-color: rgb(23, 59, 91);
+}
+footer
+{
+    background-color: rgba(240, 248, 255, 0);
+}
 
 
 
